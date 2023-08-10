@@ -13,6 +13,7 @@ func TestSingleton(t *testing.T) {
 	if ins1 != ins2 {
 		t.Fatal("instance is not equal")
 	}
+	t.Log("Success")
 }
 
 func TestParallelSingleton(t *testing.T) {
